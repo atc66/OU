@@ -1,0 +1,2 @@
+class TeamD < ApplicationRecord
+end

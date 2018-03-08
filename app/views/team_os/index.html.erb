@@ -1,0 +1,6 @@
+<h1>All Team Offenses</h1>
+
+
+<% @teamos.each do |t|  %>
+	<div><a href='/team_os/<%= t.id %>'><%= t.Tm %></a></div>
+<% end %>

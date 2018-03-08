@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Rk: 1
+  Tm: MyString
+  G: 1
+  PF: 1
+  TotTO: 1
+  FL: 1
+  TotPaYds: 1
+  PaTD: 1
+  Int: 1
+  Pa1stD: 1
+  PaYdsG: 1
+  TotRuYds: 1
+  RuYdsG: 1
+  RuTD: 1
+  Ru1stD: 1
+  FirstByPen: 1
+  Tot1stD: 1
+
+two:
+  Rk: 1
+  Tm: MyString
+  G: 1
+  PF: 1
+  TotTO: 1
+  FL: 1
+  TotPaYds: 1
+  PaTD: 1
+  Int: 1
+  Pa1stD: 1
+  PaYdsG: 1
+  TotRuYds: 1
+  RuYdsG: 1
+  RuTD: 1
+  Ru1stD: 1
+  FirstByPen: 1
+  Tot1stD: 1
