@@ -1,0 +1,6 @@
+<h1>All Teams</h1>
+
+
+<% @teamds.each do |t|  %>
+	<div><a href='/teams/<%= t.id %>'><%= t.Tm %></a></div>
+<% end %>

@@ -6,7 +6,10 @@ Rails.application.routes.draw do
 
 	resources :team_ds
 	resources :team_os
-	
+
+
+	get 'teams/', :to => 'teams#index'
+	get 'teams/:id', :to => 'teams#show'
    root "home#index"
 
 
