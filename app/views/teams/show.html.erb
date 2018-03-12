@@ -2,14 +2,14 @@
 
 
 
-<div>Points Scored: <%= @teamd.PF %></div>
-<div>Total Pass Yards: <%= @teamd.TotPaYds %></div>
-<div>Total Rushing Yards: <%= @teamd.TotRuYds %></div>
-<div>Total 1st Downs: <%= @teamd.Tot1stD %></div>
+<div>Points Scored: <%= @team.PF %></div>
+<div>Total Pass Yards: <%= @team.TotPaYds %></div>
+<div>Total Rushing Yards: <%= @team.TotRuYds %></div>
+<div>Total 1st Downs: <%= @team.Tot1stD %></div>
 
-<div>Pass PPU: <%= ((@teamd.PF).to_f/(@teamd.TotPaYds).to_f) %></div>
-<div>Rush PPU: <%= ((@teamd.PF).to_f/(@teamd.TotRuYds).to_f) %></div>
-<div>1st Down PPU: <%= ((@teamd.PF).to_f/(@teamd.Tot1stD).to_f) %></div>
+<div>Pass PPU: <%= ((@team.PF).to_f/(@team.TotPaYds).to_f) %></div>
+<div>Rush PPU: <%= ((@team.PF).to_f/(@team.TotRuYds).to_f) %></div>
+<div>1st Down PPU: <%= ((@team.PF).to_f/(@team.Tot1stD).to_f) %></div>
 
 
 

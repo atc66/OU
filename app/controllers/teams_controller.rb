@@ -1,12 +1,12 @@
 class TeamsController < ApplicationController
 
 	def index
-		@teamds = TeamD.all
-		@teamos = TeamO.all
+		@team = Team.all
+	
 	end
 
 	def show
-		@teamd = TeamD.find(params[:id])
+		@team = Team.find(params[:id])
 	end
 
 
@@ -17,6 +17,10 @@ private
 
 	def team_o_params
     	params.require(:team_o).permit(:Rk, :Tm, :G, :PF, :TotTO, :FL, :TotPaYds, :PaTD, :Int, :Pa1stD, :PaYdsG, :TotRuYds, :RuYdsG, :RuTD, :Ru1stD, :FirstByPen, :Tot1stD)
+  	end
+
+  	def team_params
+  		params.require(:team).permit(:Tm, :PF, :TotPaYds, :TotRuYds, :Tot1stD)
   	end
 
 end
